@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Pacifico&display=swap');
+
+
+/* text */
+
+.thx-text{
+    font-family: 'Gowun Batang', serif;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 30px;
+}
+#text1 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 0.5rem;
+}
+.thx-image{
+    text-align: center;
+}
+.thx-image img {
+    width: 300px;
+}
+
+.name-1 {
+    clear: both;
+}
+
+.name-1{
+    font-family: 'Gowun Batang', serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.name-2{
+    font-family: 'Gowun Batang', serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.name1 {
+    font-family: 'Gowun Batang', serif;
+    font-size: medium;
+    float: center;
+}
+.name2 {
+    font-family: 'Gowun Batang', serif;
+    font-size: small;
+    float: left;
+    text-align: left;
+}

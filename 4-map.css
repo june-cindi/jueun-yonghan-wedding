@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Pacifico&display=swap');
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+@media(max-width:800px) {
+
+}
+.title {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Gowun Batang', serif;
+    margin: 0;
+    padding-left: 20px;
+    letter-spacing: 5;
+}
+hr{
+    margin-right: 200px;
+    margin-left: 20px;
+    color: black;
+    border-top: 50px
+}
+h1{
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 5;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.location {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color:unset;
+}
+.location {
+    text-align: left;
+    font-weight: 40;
+    font-family: 'Gowun Batang', serif;
+    padding-left: 20px;
+    font-size: 0.7rem;
+    letter-spacing: 5;
+}
+.p-location{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color:unset;
+}
+.p-location {
+    text-align: left;
+    font-family: 'Gowun Batang', serif;
+    margin: 0;
+    padding-left: 0px;
+    font-size: 30%;
+    letter-spacing: 5;
+}
+
+.map-img img {
+    width: 340px;
+     height: auto;
+     align-self: center;
+ }
+ .walk{
+    font-family: 'Gowun Batang', serif;
+    color: red;
+    font-size: 50%;
+    text-align: right;
+    padding-right: 20px;
+ }
+.way {
+    text-align: left;
+    font-family: 'Gowun Batang', serif;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 30%;
+    letter-spacing: 5;
+}
+/* way text */
+.way h4{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.way h5{
+    font-size: 60%;
+    font-weight: lighter;
+}
+.phone {
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Gowun Batang', serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 40%;
+    border: 1px;
+    border-top: 1px black;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
